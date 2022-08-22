@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="bg-pink-900 text-white flex justify-between">
+        <img src="https://images.unsplash.com/photo-1603322251141-d39368c05800?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjExNjAzMjE&ixlib=rb-1.2.1&q=80" class="h-10 pt-4 px-4 rounded-3xl" alt="">
+        <ul class="px-28 py-4 flex space-x-12 justify-end">
+            <li class="cursor-pointer">Home</li>
+            <li class="cursor-pointer">About</li>
+            <li class="cursor-pointer">Catalogue</li>
+            <li class="cursor-pointer">Contact us</li>
+        </ul>
+    </nav>
+    <main class="bg-pink-200 flex justify-around">
+        <div class="main pl-8">
+            <div class="text-3xl pt-24">Your best developer in town here.
+            </div>
+            <p class="py-4 w-1/2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam assumenda maiores inventore aperiam nobis quo iure tenetur, mollitia labore temporibus quis magnam corporis ad dolorum quas facere laboriosam, non reprehenderit!</p>
+        <div class="py-1">
+            <button class="bg-pink-100 px-3 py-2 rounded-2xl text-pink-600 hover:text-yellow-400 hover:bg-red-400 mx-2 hover:border-2 hover:border-black"">Click me</button>
+            <button class="bg-pink-100 px-3 py-2 rounded-2xl text-pink-600 hover:text-yellow-400 hover:bg-red-400 mx-2 hover:border-2 hover:border-black">Contact me</button>
+        </div>
+        </div>
+        <div class="flex items-center">
+            <img src="https://images.unsplash.com/photo-1606229365485-93a3b8ee0385?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjExNjA3NTM&ixlib=rb-1.2.1&q=80" class="h-80" alt="">
+        </div>
+    </main>
+</body>
+</html>
